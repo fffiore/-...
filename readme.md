@@ -6,7 +6,7 @@ https://github.com/zjhellofss/KuiperLLama
 
 ### 在此基础上的修改
 
-#### 1. 解决了一些 bug，主要包括
+#### 1. 解决了一些 bug（仅限我遇到的），主要包括
 
 - **1.1** 模型预测时陷入局部最优的死循环  
   采取 repetition penalty 与 top-p / top-k 的随机采样策略，并将 decode 层 offload 到 GPU，  
